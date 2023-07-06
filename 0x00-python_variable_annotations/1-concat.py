@@ -5,4 +5,7 @@
 
 
 def concat(str1: str, str2: str) -> str:
-    return (str1 + str2)
+    """ A function that takes string has an argument a
+        return   the string concat
+    """
+    return str1 + str2
