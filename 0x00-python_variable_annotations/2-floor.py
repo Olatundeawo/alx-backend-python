@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-import math
 """
     Type annonation function
 """
+import math
 
 
 def floor(n: float) -> int:
