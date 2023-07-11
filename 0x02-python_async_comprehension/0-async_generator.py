@@ -4,9 +4,10 @@ A coroutine program
 """
 import asyncio
 import random
+from typing import Generator
 
 
-async def async_generator():
+async def async_generator() -> Generator[float, None, None]:
     """
     A function that loop 10 times, each time
     asynchronously wait 1 second,
